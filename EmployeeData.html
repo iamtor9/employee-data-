@@ -89,20 +89,9 @@
             </form>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/localforage/1.7.3/localforage.min.js" integrity="sha256-H/ZsHjKSJUnQyCQHZwPmn7VTWFeTTI+qgCP1GkiB9zI=" crossorigin="anonymous">
-            
-    // In localStorage, we would do:
-        var obj = { value: 'hello world' };
-        localStorage.setItem('key', JSON.stringify(obj));
-        alert(obj.value);
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/localforage/1.7.3/localforage.min.js" integrity="sha256-H/ZsHjKSJUnQyCQHZwPmn7VTWFeTTI+qgCP1GkiB9zI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./app.js"></script>
 
-    // With localForage, we use callbacks:
-        localforage.setItem('key', obj, function(err, result) {
-        alert(result.value);
-        });
-            
-            
-            </script>
 
 </body>
 </html>

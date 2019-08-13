@@ -15,10 +15,10 @@ document.querySelector("#submitButton").addEventListener("click", function(event
 
 function submitInfo() {
 console.log("you clicked")
-document.getElementById("formGroupExampleInput").value
-document.getElementById("formGroupExampleInput2").value
-document.getElementById("formGroupExampleInput3").value
-document.getElementById("formGroupExampleInput4").value
-
+const input1 = document.getElementById("formGroupExampleInput").value
+const input2 = document.getElementById("formGroupExampleInput2").value
+const input3 = document.getElementById("formGroupExampleInput3").value
+const input4 = document.getElementById("formGroupExampleInput4").value
+console.log(input1, input2, input3, input4);
 };
 

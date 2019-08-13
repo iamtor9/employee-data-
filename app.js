@@ -33,16 +33,15 @@ document.querySelector("#submitButton").addEventListener("click", function(){
     
   });
   
-  const div = document.querySelector("div");
-  setInterval(function(){
-    localforage.getItem("saved").then(function(result){
-      if(!result){
-        result = [];
-      }
-      div.innerHTML = "";
-      for(let i = 0; i<result.length; i++){
-        const br = document.createElement("br");
-        div.append(br, result[i])
-      }
-    });
-  }, 5000000000)
+  //const div = document.querySelector("div");
+  //setInterval(function(){
+    //localforage.getItem("saved").then(function(result){
+      //if(!result){
+        //result = [];
+     // }
+      //for(let i = 0; i<result.length; i++){
+        //const br = document.createElement("br");
+        //div.append(br, result[i])
+      //}
+    //});
+  //}, 500)
